@@ -3,9 +3,9 @@ class Awscurl < Formula
 
   desc "Curl like simplicity to access AWS resources"
   homepage "https://github.com/okigan/awscurl"
-  url "https://github.com/okigan/awscurl/archive/ec83491.tar.gz"
-  version "ec83491d6b1e123af1bf100947731e113a32468d"
-  sha256 "0faef7dc822cef9c423185ed176636b710954bdaa36218f0d40d1a73ad444dab"
+  url "https://github.com/okigan/awscurl/archive/263190e.tar.gz"
+  version "263190e"
+  sha256 "717953995b3f4dbca90ebad1b6b53d4633e16210ffc7aeb4f4468e390d94a61e"
   head "https://github.com/okigan/awscurl.git"
 
   depends_on "python"
@@ -69,7 +69,6 @@ class Awscurl < Formula
     url "https://files.pythonhosted.org/packages/ad/fc/54d62fa4fc6e675678f9519e677dfc29b8964278d75333cf142892caf015/urllib3-1.25.7.tar.gz"
     sha256 "f3c5fd51747d450d4dcf6f923c81f78f811aab8205fda64b0aba34a4e48b0745"
   end
-
 
   def install
     virtualenv_install_with_resources
