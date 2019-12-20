@@ -77,4 +77,5 @@ class Awscurl < Formula
   test do
     assert_match "Curl", shell_output("#{bin}/awscurl")
   end
+  
 end
